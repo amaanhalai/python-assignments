@@ -1,0 +1,19 @@
+# task1_student_marks.py
+
+# Create the dictionary
+student_marks = {
+    "Alice": 85,
+    "Bob": 90,
+    "Charlie": 78,
+    "Daisy": 92,
+    "Eve": 88
+}
+
+# Ask user for a student name
+name = input("Enter a student's name: ")
+
+# Retrieve and display marks or an appropriate message
+if name in student_marks:
+    print(f"{name}'s marks: {student_marks[name]}")
+else:
+    print(f"No marks found for student: {name}")
